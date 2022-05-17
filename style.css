@@ -21,6 +21,7 @@ header {
     display: flex;
 }
 
+/* Styling for the Intro section */
 .awesome {
     background-color: #1F2937;
     display: flex;
@@ -47,6 +48,7 @@ header {
     height: auto;
 }
 
+/* Styling for the Meet the Pack section*/
 .meet {
     font-size: 36px;
     font-weight: 900;
@@ -85,6 +87,7 @@ header {
     border-radius: 5px;
 }
 
+/* Styling for the quote section */
 .quote {
     background-color: #e5e7eb;
     display: flex;
@@ -107,10 +110,8 @@ header {
     align-self: flex-end;
 }
 
+/* Styling for the Action section */
 .action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 3em 10em;
 }
 
@@ -119,11 +120,27 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
-    padding: 20px 50px;
+    padding: 3em 2em;
     border-radius: 8px;
-    gap: 50px;
+    gap: 20px;
+    /*color: #f9faf8;
+    font-size: 12px;*/
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold-action {
+    font-size: 18px;
+    font-weight: 900;
     color: #f9faf8;
+}
+
+.notbold-action {
     font-size: 12px;
+    color: #e5e7eb;
 }
 
 button {
@@ -131,6 +148,12 @@ button {
     color: #f9faf8;
     border: 1px solid #f9faf8;
     border-radius: 2px;
+    min-width: 75px;
+    padding: 5px;
+}
+
+.signup button {
+    border: 0;
 }
 
 
@@ -147,7 +170,7 @@ ul {
 footer {
     background-color: #1F2937;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
