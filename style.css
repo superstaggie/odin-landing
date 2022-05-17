@@ -105,12 +105,23 @@ header {
 
 .action-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
     padding: 20px 50px;
     border-radius: 8px;
+    gap: 50px;
+    color: #f9faf8;
+    font-size: 12px;
 }
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 2px;
+}
+
 
 ul {
     list-style: none;
