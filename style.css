@@ -9,6 +9,7 @@ body {
     justify-content: space-between;      
 }
 
+/*Styling for the Header section */
 header {
     background-color: #455673;
     display: flex;
