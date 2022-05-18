@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 10em 3em 10em;
+    padding: 1em 10em;
 }
 
 .title {
@@ -50,7 +50,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3em 10em;
+    padding: 1em 10em 3em 10em;
     gap: 40px;
     
 }
