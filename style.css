@@ -21,6 +21,24 @@ header {
     display: flex;
 }
 
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 /* Styling for the Intro section */
 .awesome {
     background-color: #1F2937;
@@ -154,17 +172,6 @@ button {
 
 .signup button {
     border: 0;
-}
-
-
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    gap: 10px;
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 footer {
